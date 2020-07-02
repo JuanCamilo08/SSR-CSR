@@ -3,7 +3,6 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
-    // bundle: ['@babel/polyfill', 'react'],
     app: ['./src/components/index.js'],
   },
   module: {
